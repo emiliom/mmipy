@@ -1,7 +1,7 @@
 IPython notebooks 
 =================
 
-[IPython notebooks](http://ipython.org/notebook.html) illustrating specific MMI ORR functionality and access mechanisms.
+[IPython notebooks](http://ipython.org/notebook.html) illustrating specific MMI ORR functionality and access mechanisms. [Rendered versions can be browsed and viewed easily at this http://nbviewer.ipython.org link.](http://nbviewer.ipython.org/github/emiliom/mmipy/tree/master/ipynotebooks/)
 
 Initially I'm populating this folder with my existing notebooks, from my gist and other sources. [My relevants gists are easily found via the _mmi_ tag](https://www.mygists.info/emiliom/tags/mmi) I've used (hopefully on all relevant gists). 
 
