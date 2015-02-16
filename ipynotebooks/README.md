@@ -11,3 +11,7 @@ I also have one or two notebooks on [my Wakari account](https://www.wakari.io/em
 - [ioossos_owslib_SensorML_MMIcheck_demo1](https://www.wakari.io/sharing/bundle/emayorga/ioossos_owslib_SensorML_MMIcheck_demo1): From Feb 12, 2014
 - [SPARQLWrapper_MMI_IOOSParameterVocabTerm](https://www.wakari.io/sharing/bundle/emayorga/SPARQLWrapper_MMI_IOOSParameterVocabTerm): From Sep 26, 2013
 - [SPARQLWrapper%20against%20MMI%20IOOS%20Parameter%20Term](https://www.wakari.io/sharing/bundle/emayorga/SPARQLWrapper%20against%20MMI%20IOOS%20Parameter%20Term): From Sep 25, 2013
+
+For the [IOOS System Integration Test](https://github.com/ioos/system-test), ASA's [Kyle Wilcox](https://github.com/kwilcox) created a nice and succinct illustration of how to use rdflib to pull all entries in an MMI vocabulary into a pandas DataFrame: 
+- [The IPython notebook.](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_1_Baseline/Scenario_1B_CoreVariable_Strings/Scenario_1B_CoreVariable_Strings.ipynb) See the first two cells only, in the first section: "Get a list of the IOOS Core Variables from MMI". Note that the set of "attributes" that will be pulled in are hard-coded.
+- [The specific IOOS System Integration Test scenario.](https://github.com/ioos/system-test/tree/master/Theme_1_Baseline/Scenario_1B_CoreVariable_Strings) Goes way beyond the rdflib test, to using MMI SPARQL query results ran against OGC CSW endpoints.
